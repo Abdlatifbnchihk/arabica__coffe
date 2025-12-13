@@ -108,7 +108,9 @@ const ServicesSection = () => {
                   </p>
 
                   <div className="flex justify-center">
-                    <a href={service.href} className="bg-[var(--secondary-color)] hover:bg-black hover:text-[var(--secondary-color)] text-black px-4 py-3 group-hover:bg-white rounded-full font-semibold transition duration-300 cursor-pointer block">
+                    <a href={service.href} className="bg-[var(--secondary-color)] hover:bg-black hover:text-[var(--secondary-color)] text-black px-4 py-3 group-hover:bg-white rounded-full font-semibold transition duration-300 cursor-pointer block"
+                      rel="noopener noreferrer"
+                    >
                     {service.buttonText} →
                   </a>
                   </div>

@@ -107,7 +107,7 @@ const MenuSection = () => {
                 </div>
             </div>    
             <div className="flex justify-center md:col-span-2" data-aos="fade-up" data-aos-delay="400">
-                <img src={img__menu} className='w-100 h-auto rounded-2xl shadow-xl' alt="IMG" />
+                <img src={img__menu} className='w-100 h-auto rounded-2xl shadow-xl' alt="IMG" loading="lazy" />
             </div>
         </div>    
       </div>

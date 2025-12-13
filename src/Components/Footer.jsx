@@ -30,15 +30,24 @@ const FooterSection = () => {
 
             {/* Social Icons */}
             <div className="flex space-x-4">
-              <a href="https://web.facebook.com/p/Arabica-caf%C3%A9-61573075074846/?_rdc=1&_rdr#" className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer">
+              <a href="https://web.facebook.com/p/Arabica-caf%C3%A9-61573075074846/?_rdc=1&_rdr#" className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Icon icon={facebookIcon} className="text-2xl" />
               </a>
 
-              <a href="https://www.instagram.com/arabica_cafe_agadir/reels/?__d=1%252F" className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer">
+              <a href="https://www.instagram.com/arabica_cafe_agadir/reels/?__d=1%252F" className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Icon icon={instagramIcon} className="text-2xl" />
               </a>
 
-              <a className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer" href="https://wa.me/+212610782127">
+              <a className="text-[var(--primary-color)] flex justify-center items-center rounded-full bg-[var(--secondary-color)] h-10 w-10 hover:bg-[var(--primary-color)] hover:text-[var(--secondary-color)] transition duration-300 cursor-pointer" href="https://wa.me/+212610782127"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Icon icon={whatsappIcon} className="text-2xl" />
               </a>
             </div>

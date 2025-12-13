@@ -21,7 +21,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        {/* Contact Form */}
+        {/* Contact Information */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 bg-bg items-center rounded-2xl shadow-lg w-full">
           {/* Location Map */}
           <div className="p-8 lg:col-span-3 overflow-hidden h-[500px]">

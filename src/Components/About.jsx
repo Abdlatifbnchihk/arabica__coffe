@@ -33,6 +33,8 @@ const AboutSection = () => {
             <a
               href="https://web.facebook.com/p/Arabica-caf%C3%A9-61573075074846/?_rdc=1&_rdr#"
               className="bg-[var(--secondary-color)] hover:bg-[var(--primary-color)] text-white px-8 py-3 rounded-lg font-semibold transition duration-300"
+                target="_blank"
+                rel="noopener noreferrer"
             >
               See More 
             </a>
@@ -43,6 +45,7 @@ const AboutSection = () => {
             <img
               src={imgAbout}
               alt="About img"
+              loading="lazy"
               className="rounded-2xl shadow-xl w-full max-w-md h-auto"
             />
           </div>

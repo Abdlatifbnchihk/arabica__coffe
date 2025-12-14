@@ -11,7 +11,7 @@ const Header = () => {
     <header className="bg-bg shadow-md fixed top-0 left-0 z-50 border-b border-gray-200">
       <div className="mx-auto px-4 py-6 flex justify-between items-center">
         {/* Logo */}
-        <a href="#" className="flex items-center justify-between cursor-pointer text-3xl font-bold font-arabic gap-2">
+        <a href="#" rel="noopener noreferrer" className="flex items-center justify-between cursor-pointer text-3xl font-bold font-arabic gap-2">
           <span className="text-secondary tracking-wide">Arabica</span>
           <span className="text-primary">café</span>
         </a>

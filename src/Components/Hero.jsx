@@ -31,10 +31,10 @@ const HeroSection = () => {
           <a
             href="https://wa.me/+212610782127"
             className="hover:bg-transparent border-2 border-white bg-[var(--secondary-color)] text-white px-6 py-3 rounded-lg font-semibold transition duration-300 w-full sm:w-80 md:w-50 lg:w-50 xl:w-50 text-center cursor-pointer"
-              target="_blank"
-              rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Contact Us
+            Order New
           </a>
         </div>
       </div>
